@@ -4,7 +4,7 @@ A Python-based voice assistant that works like "Hey Siri" with wake word detecti
 
 ## Features
 
-- **Wake Word Detection**: Say "Hey Guru" to activate the assistant
+- **Wake Word Detection**: Say "Hey Siri" to activate the assistant
 - **Voice Commands**: Natural language processing for various tasks
 - **Text-to-Speech**: The assistant responds with voice feedback
 - **Multiple Functions**: Time, date, web search, Wikipedia, YouTube, weather, jokes, and more
@@ -84,24 +84,24 @@ python main.py
 
 ### How to Use
 1. Run the program
-2. Say "Hey Guru" to activate the assistant
+2. Say "Hey Siri" to activate the assistant
 3. Wait for "Yes, how can I help you?" response
 4. Speak your command clearly
 5. The assistant will respond with voice and text
 
 ### Example Interactions
 ```
-You: "Hey Guru"
+You: "Hey Siri"
 Assistant: "Yes, how can I help you?"
 You: "What time is it?"
 Assistant: "The current time is 2:30 PM"
 
-You: "Hey Guru"
+You: "Hey Siri"
 Assistant: "Yes, how can I help you?"
 You: "Tell me a joke"
 Assistant: [Tells a random joke]
 
-You: "Hey Guru"
+You: "Hey Siri"
 Assistant: "Yes, how can I help you?"
 You: "Search for Python programming"
 Assistant: "Searching Google for Python programming"
@@ -137,7 +137,7 @@ Assistant: "Searching Google for Python programming"
 ### Changing the Wake Word
 Edit line 28 in `main.py`:
 ```python
-self.wake_word = "hey guru"  # Change to your preferred wake word
+self.wake_word = "hey Siri"  # Change to your preferred wake word
 ```
 
 ### Adding New Commands
